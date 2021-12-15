@@ -76,6 +76,7 @@ const CrearEditarConductor = () => {
             else{
                 
                 setConductor({
+                    rut: '',
                     first_name: '',
                     last_name: '',
                     fechaNacimiento: '',
@@ -229,7 +230,7 @@ const CrearEditarConductor = () => {
                                     
                                     <Form.Group className="mb-3" >
                                         <Form.Label>Rut:</Form.Label>
-                                        <Form.Control type="text"  name="rut" placeholder="Ingresar rut" value={conductor?.rut} {...getFieldProps('rut')} />
+                                        <Form.Control type="text"  name="rut" placeholder="11111111-1" value={conductor?.rut} {...getFieldProps('rut')} />
                                         {errors.rut && touched.rut ? (
                                                 <div className="error-formulario">{errors.rut}</div>
                                         ) : null}

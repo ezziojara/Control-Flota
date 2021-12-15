@@ -4,10 +4,10 @@ const { string } = require("yup");
 
 const ConductorSchema = new mongoose.Schema(
 	{
-        // rut: {
-        //     type: Number,
-        //     required: [true, "Rut es requerido"],
-        // },
+        rut: {
+            type: String,
+            required: [true, "Rut es requerido"],
+        },
 		first_name: {
 			type: String,
 			required: [true, "Nombre es requerido"],
