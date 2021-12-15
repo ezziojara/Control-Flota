@@ -1,0 +1,22 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
+@import 'antd/dist/antd.css';
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.1/font/bootstrap-icons.css");
+
+.error-formulario{
+  color: red;
+  font-style: italic;
+}
+
+.card{
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  width: 50%;
+  margin: 0 auto;
+  border-radius: 5px;
+  margin-top: 10%;
+}
+.titulo{
+  font-style: italic;
+}
+.boton{
+  border-radius: 20px;
+}
